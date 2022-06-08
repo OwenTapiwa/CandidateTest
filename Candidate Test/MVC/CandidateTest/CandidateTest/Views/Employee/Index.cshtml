@@ -1,0 +1,31 @@
+﻿@model IEnumerable<CandidateTest.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Select Query To Run</h1>
+
+<div>
+    <h4>Queries</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            <a asp-action="FirstQuery">Question 1</a>
+        </dt>
+        <dd class = "col-sm-2">
+           <a asp-action="SecondQuery">Question 2</a>
+        </dd>
+        <dt class = "col-sm-2">
+             <a asp-action="ThirdQuery">Question 3</a>
+        </dt>
+        <dd class = "col-sm-2">
+            <a asp-action="FourthQuery">Question 4</a>
+        </dd>
+        <dt class = "col-sm-2">
+            <a asp-action="FirthQuery">Question 5</a>
+        </dt>
+    </dl>
+</div>
+
+
